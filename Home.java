@@ -4,7 +4,7 @@ public class Home {
 
 	public static void main(String[] args) throws IOException {
 		int ch;
-		String filecreate;
+		String filecreate, filedel;
 		BufferedReader reader =new BufferedReader(new InputStreamReader(System.in));
 		String line="Welcome to LockedMe.com"+
 					"\nDeveloped by Nithin Palarapu";
@@ -22,7 +22,9 @@ public class Home {
 				AddFile af= new AddFile(filecreate); //AddFile() method is called.
 				break;
 			case 2: //Delete file
-				//Deletefile();
+				System.out.print("Enter file name to delete: ");
+				filedel=reader.readLine();
+				DeleteFile df= new DeleteFile(filedel);
 				break;
 			case 3: //Search desired file
 				//Search();
