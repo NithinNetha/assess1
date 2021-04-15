@@ -15,8 +15,6 @@ public class SortDis{
 
 	public List<String> makeList() {
 		File dir = new File(".");
-		
-		
 		List<String> list = Arrays.asList(dir.list(
 		   new FilenameFilter() {
 		      @Override public boolean accept(File dir, String name) {		         	        	 
@@ -35,6 +33,7 @@ public class SortDis{
 		if (list.isEmpty() == true)
             System.out.println("***There are no files to display***");
 		else {
+			System.out.println("Files currently in directory");
 			for(String i:list)
 				System.out.println(" "+i);
 		}

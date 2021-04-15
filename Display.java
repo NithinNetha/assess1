@@ -1,19 +1,32 @@
 package assessProj;
-import java.io.*;
 import java.util.*;
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 public class Display {
 
-	public void makeMap(List<String> list) {
-		File dir = new File(".");
-		Date dateTime = new Date();
-		HashMap<String, String> sessions = new HashMap<>();
+	public void selectionSort(List<String> list) {
+
+
+	    for (int i = 0; i < list.size(); i++) {
+	        String smallest = list.get(i);
+	        int smallestIndex = i;
+	        for (int j = i; j < list.size(); j++) {
+	            String value = list.get(j);
+	            if (value.compareTo(smallest) > 0) {
+	                smallest = value;
+	                smallestIndex = j;
+	            }
+	        }
+
+	        if (smallestIndex != i) {
+	            String head = list.get(i);
+	            list.set(i, smallest);
+	            list.set(smallestIndex, head);
+	        }
+	    }
+
+	    System.out.println(list);
+	}
 		
 	}
 
-}
+

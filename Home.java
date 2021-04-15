@@ -39,14 +39,26 @@ public class Home {
 					break;
 				case 3: //Search desired file
 					//Search();
-					System.out.print("Enter file name to search: ");
-					fileSer=reader.readLine();
-					FileSearch fs=new FileSearch(list,fileSer);
+					FileSearch fs=new FileSearch(list);
 					break;
 				case 4: 
-					sd.disAccend(list);
+					int sel=0;
+					do {
+					System.out.println("\t1.Alphebetical Order\n\t2. Reverse Alphabetical order");
+					System.out.print("Choose from options above: ");
+					sel=Integer.parseInt(reader.readLine());
+					try {
+					if(sel==1)
+					{sd.disAccend(list);break;}
+					else if(sel==2) { 
+					Display d=new Display();
+					d.selectionSort(list);break;}//To demonstrate Selection sort DataStructure
+					else System.out.println("Wrong entry..");
+					}catch(NumberFormatException e) {System.out.println(e);}
+					}while(sel>=3);
+					break;
 				}
-			}catch(NumberFormatException e) {System.out.println(e);}
+			}catch(NumberFormatException e) {System.out.println(e+"\nWrong entry..Enter correct choice");}
 		}while(ch!=5); //do..while() loop exits if option selected is 5.
 		
 		System.out.println("\nThanks for using this applicaion"); //Thanks greet.
