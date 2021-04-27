@@ -39,7 +39,7 @@
             <li>&nbspDeleteFile();</li>
             <li>&nbspSearchFile();</li>
         </ul>
-        <p>All the above sprints are visible in Trello in Sprint Complete TaskCard and each individual Card will have comments for reference.</p>
+    <p>All the above sprints are visible in Trello in <strong>"Sprint Complete" TaskCard</strong> and each individual Card will have comments for reference.</p>
     <hr>
     <h3><a id="Flowchart">Flowchart</a></h3>
     <img style=" display: block; margin-left: auto;margin-right: auto; width: 70%;" src="https://embed.creately.com/IoPaXVdwWdB?type=svg" alt="image not loading https://embed.creately.com/IoPaXVdwWdB?type=svg try with this link">
