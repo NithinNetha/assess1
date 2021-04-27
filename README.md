@@ -11,7 +11,7 @@
     <h3>Table of contents</h3> 
     <ul>
         <li><a href="#Intro">Project Introduction</a></li>
-        <li><a href="#ProjectDetails">Project and developer details</a></li>
+        <li><a href="#DevDetails">Developer details</a></li>
         <li><a href="#Sprints">Sprints planned</a></li>
         <li><a href="#Flowchart">Flowchart</a></li>
         <li><a href="#TechUsed">Technologies Used</a></li>
@@ -22,7 +22,7 @@
     <h3><a id="Intro">Project Introduction</a></h3>
         <p>This is simple File Handling project which mainly deals with file names rather than file content.</p>
     <hr>
-    <h3><a id="ProjectDetails">Project Details</a></h3>
+    <h3><a id="DevDetails">Developer Details</a></h3>
         <p>Project developed by <strong>Palarapu Nithin Kumar</strong> for Phase-1 Assessment email_Id : nithin6425@gmail.com </p>
     <hr>
     <h3><a id="Sprints">Sprints planned</a></h3>
@@ -31,17 +31,17 @@
         <h4>List of Sprints</h4>
         <ul>
             <li>Draw Flowchart</li>
-            <li>Create Welcome Note and Main Menu</li>
-            <li>Create Secondary Menu</li>
-            <li>AddFile();</li>
-            <li>DisplayFile();</li>
-            <li>DeleteFile();</li>
-            <li>SearchFile();</li>
+            <li>&nbspCreate Welcome Note and Main Menu</li>
+            <li>&nbspCreate Secondary Menu</li>
+            <li>&nbspAddFile();</li>
+            <li>&nbspDisplayFile();</li>
+            <li>&nbspDeleteFile();</li>
+            <li>&nbspSearchFile();</li>
         </ul>
         <p>All the above sprints are visible in Trello in Sprint Complete TaskCard and each individual Card will have comments for reference.</p>
     <hr>
     <h3><a id="Flowchart">Flowchart</a></h3>
-    <img style=" display: block; margin-left: auto;margin-right: auto; width: 70%; " src="https://embed.creately.com/IoPaXVdwWdB?type=svg" alt="image not loading https://embed.creately.com/IoPaXVdwWdB?type=svg try with this link">
+    <img style=" display: block; margin-left: auto;margin-right: auto; width: 70%;" src="https://embed.creately.com/IoPaXVdwWdB?type=svg" alt="image not loading https://embed.creately.com/IoPaXVdwWdB?type=svg try with this link">
     <hr>
     <h3><a id="TechUsed">Technologies Used</a></h3>
         <ul>
@@ -50,15 +50,17 @@
         </ul>
     <hr>
     <h3><a id="CoreConcepts">Core Concepts in project</a></h3>
-            <p>Along  with basic concepts of Java like Output, keyboard input, object, for loop, if statements and more, I also used:-</p>
-            <p><strong>File class:</strong> to deal with file operations like creating, deleteing files and retrive file names.</p>
-            <p><strong>ArrayList:</strong> to store file names and do operations like Sorting, Display and Searching.</p>
-            <p><strong>getPath():</strong> To get the program path and set file path according to it.</p>
-            <p><strong>Exceptions:</strong> To catch Exceptions to deal with invalid inputs which helped to avoid unexcpected termination in application</p> 
-            <p><strong>switch():</strong> This is used to operate the program in way used choose.</p>
-            <p><strong>boolean matches():</strong> This regex method is used to find if file name is in proper format.</p>
-            <p><strong>Selection Sort:</strong> to sort file names in ArrayList before displaying.</p>
-            <p><strong>Naive String Search Algorithm:</strong> to search file names in ArrayList in way it can find and display files file names even user enters just name without extension.</p>
+    <p>Along  with basic concepts of Java like Output, keyboard input, object, for loop, if statements and more, I also used:-</p><
+    <ul style="list-style-type:none;">
+            <li><p><strong>File class:</strong> to deal with file operations like creating, deleteing files and retrive file names.</p></li>
+            <li><p><strong>ArrayList:</strong> to store file names and do operations like Sorting, Display and Searching.</p></li>
+            <li><p><strong>getPath():</strong> To get the program path and set file path according to it.</p></li>
+            <li><p><strong>Exceptions:</strong> To catch Exceptions to deal with invalid inputs which helped to avoid unexcpected termination in application</p></li>
+            <li><p><strong>switch():</strong> This is used to operate the program in way used choose.</p></li>
+            <li><p><strong>boolean matches():</strong> This regex method is used to find if file name is in proper format.</p></li>
+            <li><p><strong>Selection Sort:</strong> to sort file names in ArrayList before displaying.</p></li>
+            <li><p><strong>Naive String Search Algorithm:</strong> to search file names in ArrayList in way it can find and display files file names even user enters just name without extension.</p></li>
+    </ul>
     <hr>
     <h3><a id="Conclusion">Conclusion</a></h3>
          <p>This LockedMe.com application's unique points are:</p>
