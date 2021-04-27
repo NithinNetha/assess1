@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>LockedMe.com</h1>
+    <a href="https://github.com/NithinNetha/LockedMe/blob/master/src/locked/me/Home.java"> Direct link to java file</a>
     <h3>Table of contents</h3> 
     <ul>
         <li><a href="#Intro">Project Introduction</a></li>
