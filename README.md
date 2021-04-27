@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phase-1 Assessment Project</title>
+    Phase-1 Assessment Project
 </head>
 <body>
     <h1>LockedMe.com</h1>
@@ -18,10 +18,13 @@
         <li><a href="#CoreConcepts">Core Concepts in project</a></li>
         <li><a href="#Conclusion">Conclusion</a></li>
     </ul>
+    <hr>
     <h3><a id="Intro">Project Introduction</a></h3>
         <p>This is simple File Handling project which mainly deals with file names rather than file content.</p>
+    <hr>
     <h3><a id="ProjectDetails">Project Details</a></h3>
         <p>Project developed by <strong>Palarapu Nithin Kumar</strong> for Phase-1 Assessment email_Id : nithin6425@gmail.com </p>
+    <hr>
     <h3><a id="Sprints">Sprints planned</a></h3>
         <p>Sprints are planned and updated using <strong>Trello</strong> click on link given below </p> <br>
         <a href="https://trello.com/b/BcstVBK5/agile-sprint-board" target="_blank">https://trello.com/b/BcstVBK5/agile-sprint-board</a>
@@ -36,13 +39,16 @@
             <li>SearchFile();</li>
         </ul>
         <p>All the above sprints are visible in Trello in Sprint Complete TaskCard and each individual Card will have comments for reference.</p>
+    <hr>
     <h3><a id="Flowchart">Flowchart</a></h3>
     <img style=" display: block; margin-left: auto;margin-right: auto; width: 70%; " src="https://embed.creately.com/IoPaXVdwWdB?type=svg" alt="image not loading https://embed.creately.com/IoPaXVdwWdB?type=svg try with this link">
+    <hr>
     <h3><a id="TechUsed">Technologies Used</a></h3>
         <ul>
             <li>Java</li>
             <li>Eclipse IDE</li>
         </ul>
+    <hr>
     <h3><a id="CoreConcepts">Core Concepts in project</a></h3>
             <p>Along  with basic concepts of Java like Output, keyboard input, object, for loop, if statements and more, I also used:-</p>
             <p><strong>File class:</strong> to deal with file operations like creating, deleteing files and retrive file names.</p>
@@ -53,6 +59,7 @@
             <p><strong>boolean matches():</strong> This regex method is used to find if file name is in proper format.</p>
             <p><strong>Selection Sort:</strong> to sort file names in ArrayList before displaying.</p>
             <p><strong>Naive String Search Algorithm:</strong> to search file names in ArrayList in way it can find and display files file names even user enters just name without extension.</p>
+    <hr>
     <h3><a id="Conclusion">Conclusion</a></h3>
          <p>This LockedMe.com application's unique points are:</p>
         <ul>
