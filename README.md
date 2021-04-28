@@ -8,9 +8,10 @@
 </head>
 <body>
     <h1>LockedMe.com</h1>
-    <a href="https://github.com/NithinNetha/LockedMe/blob/master/src/locked/me/Home.java"> Direct link to java file</a>
+    <hr>
     <h3>Table of contents</h3> 
     <ul>
+        <li><a href="#Links">Usefull Links</a></li>
         <li><a href="#Intro">Project Introduction</a></li>
         <li><a href="#DevDetails">Developer details</a></li>
         <li><a href="#Sprints">Sprints planned</a></li>
@@ -20,11 +21,19 @@
         <li><a href="#Conclusion">Conclusion</a></li>
     </ul>
     <hr>
+    <h3><a id="Links">Usefull Links</a></h3>
+        <h4>Link for java program to execute application:</h4>
+            <a href="https://github.com/NithinNetha/LockedMe/blob/master/src/locked/me/Home.java"> Click here to view Home.java file</a>
+            <p>code can also be be found in "src/locked/me/Home.java" path from above commited folders</p>
+        <h4>Document with screen shots and explaination:<h4>
+            <a href="https://docs.google.com/document/d/15lCVm73rMM3oL6fB-4XV1uJR5QgzdLLYsclsdxtg608/edit?usp=sharing"> Click here to view Document with screenshots</a>
+            <p>I tried to cover almost all operations including outputs for invalid inputs<p/>
+    <hr>
     <h3><a id="Intro">Project Introduction</a></h3>
         <p>This is simple File Handling project which mainly deals with file names rather than file content.</p>
     <hr>
     <h3><a id="DevDetails">Developer Details</a></h3>
-        <p>Project developed by <strong>Palarapu Nithin Kumar</strong> for Phase-1 Assessment email_Id : nithin6425@gmail.com </p>
+        <p>Project developed by <strong>Palarapu Nithin Kumar</strong> for Phase-1 Assessment (email_Id : nithin6425@gmail.com) </p>
     <hr>
     <h3><a id="Sprints">Sprints planned</a></h3>
         <p>Sprints are planned and updated using <strong>Trello</strong> click on link given below </p> <br>
@@ -32,12 +41,12 @@
         <h4>List of Sprints</h4>
         <ul>
             <li>Draw Flowchart</li>
-            <li>&nbspCreate Welcome Note and Main Menu</li>
-            <li>&nbspCreate Secondary Menu</li>
-            <li>&nbspAddFile();</li>
-            <li>&nbspDisplayFile();</li>
-            <li>&nbspDeleteFile();</li>
-            <li>&nbspSearchFile();</li>
+            <li>Create Welcome Note and Main Menu</li>
+            <li>Create Secondary Menu</li>
+            <li>AddFile();</li>
+            <li>DisplayFile();</li>
+            <li>DeleteFile();</li>
+            <li>SearchFile();</li>
         </ul>
     <p>All the above sprints are visible in Trello in <strong>"Sprint Complete" TaskCard</strong> and each individual Card will have comments for reference.</p>
     <hr>
@@ -51,7 +60,7 @@
         </ul>
     <hr>
     <h3><a id="CoreConcepts">Core Concepts in project</a></h3>
-    <p>Along  with basic concepts of Java like Output, keyboard input, object, for loop, if statements and more, I also used:-</p><
+    <p>Along  with basic concepts of Java like Output, keyboard input, object, for loop, if statements and more, I also used:-</p>
     <ul style="list-style-type:none;">
             <li><p><strong>File class:</strong> to deal with file operations like creating, deleteing files and retrive file names.</p></li>
             <li><p><strong>ArrayList:</strong> to store file names and do operations like Sorting, Display and Searching.</p></li>
