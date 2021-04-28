@@ -75,8 +75,10 @@
     <h3><a id="Conclusion">Conclusion</a></h3>
          <p>This LockedMe.com application's unique points are:</p>
         <ul>
-            <li> <p>If user gives file name format like .classpath, src, or file. while creating file application will not take it as valid input. File names must be "**.***" format only for creating file.</p></li>
-            <li><p> While user wants to search for file along with normal file name format user can give just the file name without extension and application will show us all the files with same name and differnt extension.  </p></li>
+            <li> <p>If user gives file name format like .classpath, src, or file. while creating file application will not take it as valid input. File names must be "**.***" format only for creating file.</p>
+            <img src="https://github.com/NithinNetha/assess1/blob/master/createError.jpg"></li> 
+            <li><p> While user wants to search for file along with normal file name format user can give just the file name without extension and application will show us all the files with same name and differnt extension.  </p>
+            <img src="https://github.com/NithinNetha/assess1/blob/master/searchtwo.JPG"></li>
         </ul>
         <p>Hence I conclude this application is designed in a way that user no need to worry about invalid inputs or abnormal termination.</p>
     <h4>Thank you</h4>
